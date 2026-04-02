@@ -7,8 +7,11 @@
 @use "base/utilities" as *;
 
 @use "components/button" as *;
+@use "components/composition" as *;
+
 
 @use "layout/header" as *;
+@use "layout/grid" as *;
 
 @use "pages/home" as *;
 
