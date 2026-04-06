@@ -15,6 +15,7 @@
     "watch:sass": "sass --watch sass:css"
   },
   "devDependencies": {
+    "prettier": "^3.8.1",
     "sass": "^1.80.0"
   }
 }
