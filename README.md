@@ -1,12 +1,16 @@
 # Natours
 
-Landing page untuk perusahaan tur outdoor dengan desain modern dan responsif.
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
+![Sass](https://img.shields.io/badge/Sass-CC6699?style=flat&logo=sass&logoColor=white)
 
-## Teknologi
+A modern and responsive landing page for an outdoor tour company.
+
+## Technologies
 
 - HTML5, CSS3, Sass
 
-## Instalasi
+## Installation
 
 ```bash
 npm install
@@ -18,10 +22,10 @@ npm start
 | Command              | Description                     |
 | -------------------- | ------------------------------- |
 | `npm start`          | Development server + watch Sass |
-| `npm run build:css`  | Build CSS untuk production      |
+| `npm run build:css`  | Build CSS for production        |
 | `npm run watch:sass` | Watch Sass files                |
 
-## Struktur
+## Structure
 
 ```
 Natours/
@@ -31,14 +35,14 @@ Natours/
 └── index.html    # Main page
 ```
 
-## Fitur
+## Features
 
-- 3 paket tur (Sea Explorer, Forest Hiker, Snow Adventurer)
-- Kartu flip 3D
+- 3 tour packages (Sea Explorer, Forest Hiker, Snow Adventurer)
+- 3D flip cards
 - Video background
-- Form booking
+- Booking form
 - Responsive design
 
 ## Credits
 
-Developed by Beni Candra - Advanced CSS and Sass Course
+Developed by Beni Candra
