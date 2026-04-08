@@ -102,5 +102,20 @@
       background-color: $color-primary;
       opacity: 0;
     }
+
+    @include respond(phone) {
+      height: 2.5rem;
+      width: 2.5rem;
+    }
+  }
+
+  @include respond(phone) {
+    &__input {
+      padding: 1.2rem 1.5rem;
+    }
+
+    &__radio-label {
+      padding-left: 4rem;
+    }
   }
 }

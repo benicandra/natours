@@ -14,6 +14,7 @@
     top: 0;
     left: 0;
     width: 100%;
+    -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     border-radius: 3px;
     overflow: hidden;
@@ -187,7 +188,7 @@
     font-weight: 100;
   }
 
-  @include respond(tab-port) {
+  @media only screen and (max-width: 56.25em), only screen and (hover: none) {
     height: auto;
     border-radius: 3px;
     background-color: $color-white;
@@ -228,6 +229,25 @@
 
     &__price-value {
       font-size: 4rem;
+    }
+  }
+
+  @include respond(phone) {
+    &__heading {
+      font-size: 2.2rem;
+      top: 10rem;
+    }
+
+    &__details {
+      padding: 1rem 2rem;
+    }
+
+    &__cta {
+      padding: 5rem 2rem 3rem 2rem;
+    }
+
+    &__price-value {
+      font-size: 3.5rem;
     }
   }
 }

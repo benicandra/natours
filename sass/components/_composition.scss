@@ -20,6 +20,13 @@
       box-shadow: 0 1.5rem 3rem rgba($color-black, 0.2);
     }
 
+    @include respond(phone) {
+      float: left;
+      position: relative;
+      width: 33.333%;
+      box-shadow: 0 1rem 2rem rgba($color-black, 0.15);
+    }
+
     &--p1 {
       left: 0;
       top: -2rem;

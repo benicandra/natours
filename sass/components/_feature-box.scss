@@ -30,6 +30,11 @@
     @include respond(tab-port) {
       padding: 0;
     }
+
+    @include respond(phone) {
+      font-size: 4.5rem;
+      margin-bottom: 1rem;
+    }
   }
   &:hover {
     transform: translateY(-1.5rem) scale(1.03);
